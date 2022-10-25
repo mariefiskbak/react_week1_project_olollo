@@ -6,19 +6,20 @@ function Beer(props) {
     const [beer, setBeer] = useState("")
 
     useEffect(() => {
-            fetchData()
+        fetchData()
     }, [])
-
+    const URL = "http://localhost:5000/nameOfYourArrayData/"
+    let barcode = 2
     const fetchData = () => {
-        fetch("http://localhost:5000/nameOfYourArrayData")
-        // fetch("http://localhost:5000/nameOfYourArrayData", {
-        //      headers: {
-        //          "Accept": "application/json"
-        //     }
-        // })
+        fetch(URL + barcode)
+            // fetch("http://localhost:5000/nameOfYourArrayData", {
+            //      headers: {
+            //          "Accept": "application/json"
+            //     }
+            // })
             .then(res => res.json())
             //.then(data => setBeer(data.value))
-            .then(data => setBeer(data.joke))
+            .then(data => setBeer(data.value))
     }
 
     const beerHandler = () => {
