@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import Header from './components/Header.jsx'
+import Header from './components/header/Header.jsx'
 import UseRef from "./UseRef.jsx";
+import SearchBar from './components/serachBar/SearchBar';
+import Beers from './components/beers/Beers.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +10,8 @@ function App() {
   return (
     <div>
     <Header />
-    <UseRef />
+    <SearchBar />
+    <Beers />
     </div>
   )
 }

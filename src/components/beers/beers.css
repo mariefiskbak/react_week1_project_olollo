@@ -1,0 +1,71 @@
+
+.beerField {
+    background-color: lightgray;
+    height: auto;
+    width: 100% !important;
+    
+}
+.beerRow {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: relative;
+    left: 10%;
+    
+}
+.beerItem {
+    height: 500px;
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.beerItem>img {
+    height: 250px;
+    width: auto;
+    position: relative;
+    left: 35%;
+}
+
+.rating-star {
+    font-size: 3rem;
+    width: 10px;
+    height: 4rem;
+    padding: 0 2rem;
+    position: relative;
+    display: block;
+    float: left;
+}
+  
+.full-star:before {
+    color: #f2b01e;
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+  
+.empty-star:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+  
+.half-star:before {
+    color: #f2b01e;
+    content: "\2605";
+    width: 50%;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+  
+.half-star:after {
+    content: "\2605";
+    position: absolute;
+    left: 1.5rem;
+    width: 50%;
+    text-indent: -1.5rem;
+    overflow: hidden;
+}
+  

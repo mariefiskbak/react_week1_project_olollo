@@ -24,9 +24,6 @@ function UseRef(props) {
             <h1>Scan øllens stregkode</h1>
             <input ref={inputRef} onChange={changeHandler}/>
             <button onClick={focusHandler}>Focus</button>
-
-
-
             <input type="text" value={inputValue} onChange={(e) => {
                 setInputValue(e.target.value)
             }}/>

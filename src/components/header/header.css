@@ -5,13 +5,14 @@
     color: white;
     height: 100px;
     align-content: space-between;
+    overflow-y: hidden;
 }
 .menu .logo {
     width: 30%;
     font-size: 50px;
     position: relative;
     top: 20%;
-    left: 3%
+    left: 3%;
 }
 .menu .items {
     width: 50%;

@@ -6,7 +6,7 @@ const Header = () => {
     <div className="menu">
         <div className="logo">Beer Mage</div>
         <div className="items">
-            <a href="" className="listItem">Homepage</a>
+            <a href="" className="listItem">Top 10</a>
             <a href="" className="listItem">About us</a>
             <a href="" className="listItem">Contact</a>
         </div>
