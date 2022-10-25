@@ -1,8 +1,21 @@
 .field {
     width: 100%;
-    height: 300px;
-    background-color: blue;
+    height: 400px;
+    background-image: url('../../images/background5.jpg');
     overflow-x: hidden;
+    z-index: 2;
+    color: white;
+}
+.field2{
+    position: absolute;
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    opacity: 0.2;
+}
+.field img.resize {
+    width:540px; /* you can use % */
+    height: auto;
 }
 .searchBar {
     display: flex;

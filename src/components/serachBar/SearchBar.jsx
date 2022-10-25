@@ -3,7 +3,7 @@ import React from 'react'
 
 const SearchBar = () => {
   return (
-    <div className="field">
+    <div className="field"><div className="field2"></div>
         <div className="title">
             <h2>Søg efter øl med stregkode</h2>
         </div>

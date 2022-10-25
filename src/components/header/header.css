@@ -1,3 +1,6 @@
+
+
+
 .menu {
     display: flex;
     width: 100%;
@@ -9,10 +12,14 @@
 }
 .menu .logo {
     width: 30%;
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
+    font-weight: 300;
     top: 20%;
     left: 3%;
+}
+.logo span {
+    font-weight: 800;
 }
 .menu .items {
     width: 50%;
@@ -41,4 +48,11 @@
 .menu .buttons button {
     height: 50px;
     width: 100px;
+    background: linear-gradient(109.6deg, rgb(80, 35, 217) 11.2%, rgb(217, 35, 189) 91.1%);
+    border-radius: 20px;
+    color: white;
+    font-weight: 600px;
+    font-size: 15px;
+
+
 }
