@@ -5,7 +5,7 @@ const SearchBar = () => {
   return (
     <div className="field"><div className="field2"></div>
         <div className="title">
-            <h2>Søg efter øl med stregkode</h2>
+            <h2>Beer searchengine</h2>
         </div>
         <div className="searchBar">
             <input placeHolder="Søg øl, bryggeri, eller type"type="text" />

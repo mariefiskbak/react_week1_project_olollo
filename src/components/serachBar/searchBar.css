@@ -11,7 +11,7 @@
     background-color: black;
     height: 400px;
     width: 100%;
-    opacity: 0.2;
+    opacity: 0.3;
 }
 .field img.resize {
     width:540px; /* you can use % */
@@ -24,6 +24,7 @@
     left: 22%;
     
 }
+
 .searchBar>input {
     height: 100px; 
     width: 700px;
@@ -43,9 +44,13 @@
     background-color: red;
 }
 .title {
-    text-align: center;
+
     text-transform: uppercase;
     position: relative;
-    top: 15%;
-    font-size: 25px;
+    top: 33%;
+    left: 22%
+}
+.title h2 {
+    font-size: 15px;
+    font-weight: 300;
 }

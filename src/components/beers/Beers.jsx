@@ -11,14 +11,10 @@ const Beers = () => {
         <div className="beerRow">
             <div className="beerItem">
                 <img src={image1} alt="" />
-                <h2>Beer name</h2>
-                <div className="desc">
-                <h4>Type</h4>
-                <h4>Country </h4><img src="" alt="" />
-                </div>
+                <div className="backImage"></div>
+                <div className="ratingBox">
                 <div className="rating">
                     <div className="ratingTitle">
-                    <h3>Rating</h3>
                     <h2>3.8</h2>
                     </div>
                     <div class="rating-box">
@@ -28,18 +24,21 @@ const Beers = () => {
                         <span class="rating-star half-star"></span>
                         <span class="rating-star empty-star"></span>
                     </div>
+                    <h6>245 Ratings</h6>
+                </div>
+                </div>
+                <h2>Beer name</h2>
+                <div className="desc">
+                <h4>Type</h4>
+                <h4>Country </h4><img src="" alt="" />
                 </div>
             </div>
             <div className="beerItem">
                 <img src={image2} alt="" />
-                <h2>Beer name</h2>
-                <div className="desc">
-                <h4>Type</h4>
-                <h4>Country </h4><img src="" alt="" />
-                </div>
+                <div className="backImage"></div>
+                <div className="ratingBox">
                 <div className="rating">
                     <div className="ratingTitle">
-                    <h3>Rating</h3>
                     <h2>3.8</h2>
                     </div>
                     <div class="rating-box">
@@ -49,18 +48,21 @@ const Beers = () => {
                         <span class="rating-star half-star"></span>
                         <span class="rating-star empty-star"></span>
                     </div>
+                    <h6>245 Ratings</h6>
+                </div>
+                </div>
+                <h2>Beer name</h2>
+                <div className="desc">
+                <h4>Type</h4>
+                <h4>Country </h4><img src="" alt="" />
                 </div>
             </div>
             <div className="beerItem">
                 <img src={image3} alt="" />
-                <h2>Beer name</h2>
-                <div className="desc">
-                <h4>Type</h4>
-                <h4>Country </h4><img src="" alt="" />
-                </div>
+                <div className="backImage"></div>
+                <div className="ratingBox">
                 <div className="rating">
                     <div className="ratingTitle">
-                    <h3>Rating</h3>
                     <h2>3.8</h2>
                     </div>
                     <div class="rating-box">
@@ -70,8 +72,16 @@ const Beers = () => {
                         <span class="rating-star half-star"></span>
                         <span class="rating-star empty-star"></span>
                     </div>
+                    <h6>245 Ratings</h6>
+                </div>
+                </div>
+                <h2>Beer name</h2>
+                <div className="desc">
+                <h4>Type</h4>
+                <h4>Country </h4><img src="" alt="" />
                 </div>
             </div>
+    
     
         </div>
     </div>

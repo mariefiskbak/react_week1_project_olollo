@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='bottom'>
       <div className="text">
       <p>Copyright © 2022 Beer Mage. All rights reserved</p>
-      <p>Based in Denmark, Bornholm</p>
+    
       </div>
       <div className="image">
         <img src={Image} alt="" />
