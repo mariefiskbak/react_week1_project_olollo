@@ -32,7 +32,7 @@
 }
 
 .beerItem:hover {
-    transform: scale(0.95);
+    transform: scale(0.98);
 }
 .beerItem>img {
     height: 250px;
@@ -42,10 +42,10 @@
     z-index: 2;
 }
 .beerItem .backImage {
-    background-color: black;
+    background-color: rgb(20, 7, 66);;
     height: 250px;
     position: relative;
-    top: -12%;
+    top: -13%;
     z-index: 1;
 }
 .beerItem .ratingBox {
@@ -54,20 +54,51 @@
     width: 150px;
     position: relative;
     left: 55%;
-    top: -30%;
+    top: -32%;
     overflow: hidden;
-    margin-bottom: -20%;
+    margin-bottom: -33%;
     z-index: 2;
     border-radius: 50%;
     -webkit-box-shadow: 10px 19px 37px -9px rgba(130,130,130,0.8); 
     box-shadow: 10px 19px 37px -9px rgba(130,130,130,0.8);
-
 }
 .rating {
     position: relative;
     top: 14%
 }
+.country>img {
+    height: 20px;
+    width: auto;
+}
+.descTitle {
+    height: 80px;
+    font-size: 18px;
+    position: relative;
+    padding: 0 30px;
+}
+.descSubTitle {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 10px;
+    left: 8%;
+    margin-bottom: 20px;
+}
+.descSubTitle button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
 
+}
+
+.desc .country {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 10px
+}
 .rating-star {
     font-size: 25px;
     width: 8px;
@@ -124,4 +155,34 @@ h6 {
     text-indent: -1.5rem;
     overflow: hidden;
 }
-  
+
+.countryType {
+    display: flex;
+    flex-direction: row;
+}
+.country {
+    position: relative;
+    left: 20%
+}
+.type {
+    position: relative;
+    left: 8%;
+    display: flex;
+    gap: 10px
+}
+.type button {
+    width: 100px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    background-color: turquoise;
+    cursor: pointer;
+}
+.buttonsBottom {
+    display: flex;
+    position: relative;
+    top: 8%;
+    left: 7%;
+    gap: 20px
+  }
+
