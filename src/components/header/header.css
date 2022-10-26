@@ -21,6 +21,10 @@
 .logo span {
     font-weight: 800;
 }
+.logo .v1 {
+    font-size: 12px !important;
+    font-weight: 300;
+}
 .menu .items {
     width: 50%;
     display: flex;

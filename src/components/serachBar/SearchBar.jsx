@@ -8,7 +8,7 @@ const SearchBar = () => {
             <h2>Søg efter øl med stregkode</h2>
         </div>
         <div className="searchBar">
-            <input type="text" />
+            <input placeHolder="Søg øl, bryggeri, eller type"type="text" />
             <button>Search</button>
         </div>
     </div>
