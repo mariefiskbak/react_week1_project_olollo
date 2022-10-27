@@ -1,15 +1,36 @@
 {
-  "nameOfYourArrayData": [
+  "beers": [
 
     {
-      "id": "R7UfaahVfFd",
-      "value": "Meget god og lækker øl."
+      "id": 1,
+      "name": "Delivery Boy",
+      "brewery": "Mikkeller",
+      "type": "Stout",
+      "image": "https://www.mikkellersd.com/wp-content/uploads/OUTSHINERY-Mikkeller-16ozCan-DeliveryBoy.png",
+      "ratingScore": 4.2,
+      "ratingAmount": 601,
+      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png"
 
     },
     {
-      "id": "2",
-      "value": "Meget sur og dårlig øl."
-
+      "id": 2,
+      "name": "The Goat",
+      "brewery": "Mikkeller",
+      "type": "Double IPA",
+      "image": "https://www.mikkellersd.com/wp-content/uploads/OUTSHINERY-Mikkeller-16ozCan-TheGOAT.png",
+      "ratingScore": 4.4,
+      "ratingAmount": 472,
+      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png"
+    },
+    {
+      "id": 3,
+      "name": "Cobbler Craft",
+      "brewery": "Mikkeller",
+      "type": "Triple IPA",
+      "image": "https://www.mikkellersd.com/wp-content/uploads/OUTSHINERY-Mikkeller-16ozCan-CobblerCraft-2.png",
+      "ratingScore": 4.8,
+      "ratingAmount": 1432,
+      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png"
     }
 
   ]
