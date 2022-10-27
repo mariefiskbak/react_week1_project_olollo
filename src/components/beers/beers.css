@@ -4,23 +4,25 @@
 .beerField {
     background-color: lightgray;
     height: auto;
-    width: 100% !important;
+    width: 100%;
     
 }
 .beerRow {
+    padding: 30px 30px;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
     position: relative;
 
     
 }
 .beerItem {
-    left: 35%;
+    
     height: 500px;
     width: 380px;
     background-color: whitesmoke;
-    margin: 20px 0px;
+    
     border-radius: 20px;
      cursor: pointer;
     -moz-osx-font-smoothing: grayscale;

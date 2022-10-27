@@ -3,34 +3,93 @@
 
     {
       "id": 1,
-      "name": "Delivery Boy Bitches allaroudn ehr",
-      "brewery": "Mikkeller",
-      "type": "Stout",
-      "image": "https://www.mikkellersd.com/wp-content/uploads/OUTSHINERY-Mikkeller-16ozCan-DeliveryBoy.png",
+      "name": "Anarkist New England IPA",
+      "brewery": "Royal Unibrew",
+      "type": "IPA",
+      "image": "https://royalunibrew.dk/wp-content/uploads/2020/01/TSBC_Anarkist_BloodyWeizen_50cl_dry-150x498.png",
       "ratingScore": 4.2,
       "ratingAmount": 601,
-      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png"
+      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
+      "organic": false
 
     },
     {
       "id": 2,
-      "name": "The Goat",
-      "brewery": "Mikkeller",
-      "type": "Double IPA",
-      "image": "https://www.mikkellersd.com/wp-content/uploads/OUTSHINERY-Mikkeller-16ozCan-TheGOAT.png",
+      "name": "Svaneke Stout",
+      "brewery": "Svaneke Bryghus",
+      "type": "Stout",
+      "image": "https://svanekebryghus.dk/uploads/ofl44HZK/Svaneke-Bryghus-Stout-1000x300px.png.png",
       "ratingScore": 4.4,
       "ratingAmount": 472,
-      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png"
+      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
+      "organic": true
     },
     {
       "id": 3,
-      "name": "Cobbler Craft",
+      "name": "Gylden IPA",
+      "brewery": "Royal Unibrew",
+      "type": "IPA",
+      "image": "https://royalunibrew.dk/wp-content/uploads/2017/05/Schioetz_GyldenIPA_dry_50cl-150x607.png",
+      "ratingScore": 3.2,
+      "ratingAmount": 1432,
+      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
+      "organic": false
+    },
+    {
+      "id": 4,
+      "name": "The Goat",
       "brewery": "Mikkeller",
       "type": "Triple IPA",
-      "image": "https://www.mikkellersd.com/wp-content/uploads/OUTSHINERY-Mikkeller-16ozCan-CobblerCraft-2.png",
+      "image": "https://www.mikkellersd.com/wp-content/uploads/OUTSHINERY-Mikkeller-16ozCan-TheGOAT.png",
       "ratingScore": 4.8,
       "ratingAmount": 1432,
-      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png"
+      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
+      "organic": false
+    },
+    {
+      "id": 5,
+      "name": "Påskefrokost",
+      "brewery": "Svaneke Bryghus",
+      "type": "IPA",
+      "image": "https://svanekebryghus.dk/uploads/PCuSC5Io/Svaneke-Bryghus-Paaskefrokost-300x512px.png",
+      "ratingScore": 4.2,
+      "ratingAmount": 601,
+      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
+      "organic": true
+
+    },
+    {
+      "id": 6,
+      "name": "Three Knights",
+      "brewery": "Svaneke Bryghus",
+      "type": "Triple IPA",
+      "image": "https://svanekebryghus.dk/uploads/FxEiG2Gx/Svaneke-Bryghus-Three-Knights-300x640px.png",
+      "ratingScore": 4.4,
+      "ratingAmount": 472,
+      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
+      "organic": false
+    },
+    {
+      "id": 7,
+      "name": "Bingo Ringo",
+      "brewery": "Svaneke Bryghus",
+      "type": "Mexican Lager",
+      "image": "https://svanekebryghus.dk/uploads/eG6xxQWT/Svaneke-Bryghus-Bingo-Gringo-300x512px.png",
+      "ratingScore": 4.8,
+      "ratingAmount": 1432,
+      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
+      "organic": true
+    },
+    {
+      "id": 8,
+      "name": "Small Batch No. 1",
+      "brewery": "Small Batch",
+      "type": "Triple IPA",
+      "image": "https://smallbatch.dk/wp-content/uploads/2019/02/smallbatch-no1-343x1030.png",
+      "ratingScore": 4.8,
+      "ratingAmount": 1432,
+      "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
+      "organic": false
     }
 
   ]
