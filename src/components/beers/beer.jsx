@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import {Link} from 'react-router-dom'
 import './beers.css'
 import image1 from '../../images/1.png'
 import dk from '../../images/dk.png'
@@ -11,7 +12,6 @@ function beer() {
         .then((res) => res.json())
         .then ((data) => {
             setBeers(data)
-            console.log(data)
         }) ;
 
     }
@@ -28,6 +28,7 @@ function beer() {
     <div className="beerRow">
     {beers.map(beers => {
     return(
+    <Link to={"beer/" + beers.id} state={{data: beers}} className="link">
     <div className="beerItem">
                 <img src={beers.image} alt="" />
                 <div className="backImage"></div>
@@ -62,7 +63,10 @@ function beer() {
                         </div>
                     </div>
                 </div>
+                
             </div>
+            </Link>
+            
     )
     })}
         </div>
