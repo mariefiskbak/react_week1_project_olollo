@@ -56,5 +56,32 @@
     z-index: 3;
     -webkit-box-shadow: 10px 19px 37px -9px rgba(130,130,130,0.8); 
     box-shadow: 10px 19px 37px -9px rgba(130,130,130,0.8);
+    
 
+}
+.rating-star2 {
+    font-size: 35px;
+    width: 18px;
+    height: 60px;
+    padding: 0 7px;
+    position: relative;
+    display: block;
+    float: left;
+    left: 23%;
+}
+.showScoreLeft {
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    align-content: center;
+
+}
+.scoreTitle {
+    font-size: 100px;
+    font-weight: 500;
+    padding-top: 20px;
+
+}
+.scoreSubTitle {
+    font-size: 25px;
 }

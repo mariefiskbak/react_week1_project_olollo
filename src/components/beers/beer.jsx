@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import './beers.css'
 import image1 from '../../images/1.png'
-import dk from '../../images/dk.png'
+import organic from '../../images/organic.png'
 
 function beer() {
 
@@ -12,14 +12,22 @@ function beer() {
         .then((res) => res.json())
         .then ((data) => {
             setBeers(data)
+
+        
         }) ;
 
     }
+    function getOrganic() {
+        
+    }
+
 
     const [beers, setBeers] = useState([])
+    
 
     useEffect(() => {
         getBeers()
+        
     }, [])
 
     
@@ -27,11 +35,13 @@ function beer() {
     <div className="beerField">
     <div className="beerRow">
     {beers.map(beers => {
+
     return(
     <Link to={"beer/" + beers.id} state={{data: beers}} className="link">
     <div className="beerItem">
                 <img src={beers.image} alt="" />
                 <div className="backImage"></div>
+                <img src={beers.organic} className="organic"></img>
                 <div className="ratingBox">
                 <div className="rating">
                     <div className="ratingTitle">

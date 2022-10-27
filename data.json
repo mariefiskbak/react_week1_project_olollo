@@ -10,7 +10,7 @@
       "ratingScore": 4.2,
       "ratingAmount": 601,
       "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
-      "organic": false
+      "organic": ""
 
     },
     {
@@ -22,7 +22,7 @@
       "ratingScore": 4.4,
       "ratingAmount": 472,
       "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
-      "organic": true
+      "organic": "https://agriculture.ec.europa.eu/sites/default/files/styles/oe_theme_medium_no_crop/public/2019-06/eu-organic-logo-600x400_0.png?itok=RqpSxyiM"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "ratingScore": 3.2,
       "ratingAmount": 1432,
       "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
-      "organic": false
+      "organic": ""
     },
     {
       "id": 4,
@@ -44,7 +44,7 @@
       "ratingScore": 4.8,
       "ratingAmount": 1432,
       "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
-      "organic": false
+      "organic": ""
     },
     {
       "id": 5,
@@ -55,7 +55,7 @@
       "ratingScore": 4.2,
       "ratingAmount": 601,
       "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
-      "organic": true
+      "organic": "https://agriculture.ec.europa.eu/sites/default/files/styles/oe_theme_medium_no_crop/public/2019-06/eu-organic-logo-600x400_0.png?itok=RqpSxyiM"
 
     },
     {
@@ -67,7 +67,7 @@
       "ratingScore": 4.4,
       "ratingAmount": 472,
       "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
-      "organic": false
+      "organic": "https://agriculture.ec.europa.eu/sites/default/files/styles/oe_theme_medium_no_crop/public/2019-06/eu-organic-logo-600x400_0.png?itok=RqpSxyiM"
     },
     {
       "id": 7,
@@ -78,7 +78,7 @@
       "ratingScore": 4.8,
       "ratingAmount": 1432,
       "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
-      "organic": true
+      "organic": ""
     },
     {
       "id": 8,
@@ -89,7 +89,7 @@
       "ratingScore": 4.8,
       "ratingAmount": 1432,
       "country": "https://www.countryflags.com/wp-content/uploads/denmark-flag-png-xl.png",
-      "organic": false
+      "organic": ""
     }
 
   ]

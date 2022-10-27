@@ -1,0 +1,63 @@
+.spacer {
+    height: 270px;
+    width: 100%;
+}
+.profileBack {
+    height: 400px;
+    width: 100%;
+    
+}
+.bTitle {
+    
+    font-size: 100px;
+    text-align: center;
+}
+.display {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 40px
+}
+.display p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.area {
+    
+    width: 40%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: lightgray;
+    position: relative;
+    left: 30%;
+}
+.areaSlider {
+    position: relative;
+    height: 100%;
+    width: 30px;
+    background-color: rgb(20, 7, 66);;
+}
+.highLow p{
+    text-align: unset;
+}
+.highLow .high p {
+    position: relative;
+    left: 20%
+}
+.low p {
+    position: relative;
+}
+.slider {
+    left: 75%
+}
+.slider2 {
+    left: 25%
+}
+.slider3 {
+    left: 55%
+}
+.slider4 {
+    left: 90%
+}

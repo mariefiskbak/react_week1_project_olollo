@@ -2,6 +2,7 @@ import React from 'react'
 import { useLocation, Link } from 'react-router-dom'
 import Header from '../../components/header/Header';
 import './beerDetails.css'
+import BeerProfile from '../../components/beerProfile/BeerProfile'
 
 
 const BeerDetails = (props) => {
@@ -10,6 +11,8 @@ const BeerDetails = (props) => {
     console.log(props, "props");
     console.log(location, "useLocation Hook")
     const beer = location.state.data
+
+    
     
   return (
     
@@ -25,18 +28,27 @@ const BeerDetails = (props) => {
               </svg>
             </Link>
 
-
-
             <img className='leftBeer' src={beer.image}></img>
             <div className='rightBeer'>
               <p className='beerTitle'>{beer.name}</p>
               <p className='beerSubTitle'>by {beer.brewery}</p>
             </div>
-            <div className="showScore"></div>
+            <div className="showScore">
+              <div className="showScoreLeft">
+                <p className="scoreTitle">{beer.ratingScore}</p>
+                <div class="rating-box">
+                          <span class="rating-star2 full-star"></span>
+                          <span class="rating-star2 full-star"></span>
+                          <span class="rating-star2 full-star"></span>
+                          <span class="rating-star2 full-star"></span>
+                          <span class="rating-star2 empty-star"></span>
+                      </div>
+                <p className="scoreSubTitle">{beer.ratingAmount} Ratings</p>
+              </div>
+            </div>
           </div>
         </div>
-  
-        
+        <BeerProfile />
     </div>
     
   )
