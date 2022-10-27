@@ -5,6 +5,7 @@ import './beerDetails.css'
 import BeerProfile from '../../components/beerProfile/BeerProfile'
 
 
+
 const BeerDetails = (props) => {
 
     const location = useLocation()
