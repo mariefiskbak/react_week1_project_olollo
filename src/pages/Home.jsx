@@ -30,7 +30,8 @@ const Home = () => {
 
     const filteredBeers = beers.filter((beer) => {
         return beer.type.toLowerCase().includes(searchInput.toLowerCase())
-            && beer.name.toLowerCase().includes(searchInput.toLowerCase())
+            || beer.name.toLowerCase().includes(searchInput.toLowerCase())
+            || beer.brewery.toLowerCase().includes(searchInput.toLowerCase())
     })
 
     return (
