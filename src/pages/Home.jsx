@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect, useRef} from "react";
 import Header from '../components/header/Header'
 import SearchBar from '../components/serachBar/SearchBar';
 import Beers from '../components/beers/Beers.jsx';
@@ -6,14 +6,40 @@ import Footer from '../components/footer/Footer.jsx';
 
 
 const Home = () => {
-  return (
-    <div>
-        <Header/>
-        <SearchBar/>
-        <Beers/>
-        <Footer/>
-    </div>
-  )
+
+    const [beers, setBeers] = useState([])
+    const [searchInput, setSearchInput] = useState("")
+
+    useEffect(() => {
+        fetchData()
+    }, [])
+
+    const fetchData = () => {
+        fetch('http://localhost:5000/beers')
+            .then((res) => res.json())
+             .then (data => setBeers(data)) ;
+            //.then(data => console.log(data))
+    }
+
+    console.log({beers})
+
+    function changeHandler(e) {
+        setSearchInput(e.target.value)
+        console.log("changeHandler blev kaldt")
+    }
+
+    const filteredBeers = beers.filter((beer) =>
+        beer.name.toLowerCase().includes(searchInput.toLowerCase())
+    )
+
+    return (
+        <div>
+            <Header/>
+            <SearchBar changeHandler={changeHandler}/>
+            <Beers filteredBeers={filteredBeers}/>
+            <Footer/>
+        </div>
+    )
 }
 
 export default Home
