@@ -1,10 +1,106 @@
 .Page {
     width: 100vw;
     height: 100vh;
-
+    display: grid;
+    grid-template-columns: 250px auto;
+    
 }
-.Navbar {
+.content {
     height: 100%;
-    width: 300px;
-    background-color:green;
+    width: auto;
+}
+.navbar {
+    position: sticky;
+    box-shadow: 20px 0px 28px -21px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 20px 0px 28px -21px rgba(0,0,0,0.10);
+    -moz-box-shadow: 20px 0px 28px -21px rgba(0,0,0,0.10);
+}
+.navItem{
+    height: 10%;
+    background-color: rgb(20, 7, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navItem:hover {
+    background-color: gray;
+} 
+.navLogo {
+    height: 25%;
+    background-color: rgb(20, 7, 66);
+    
+    overflow: hidden;
+}
+.navFooter {
+    height: 5%;
+    background-color: rgb(20, 7, 66);
+    
+}
+.navLogo p{
+    color: white;
+    position: relative;
+    left: 20%;
+    text-transform: capitalize;
+}
+.p1 {
+    padding-top: 25%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.p2 {
+    padding-left: 1px;
+    padding-top: 10px;
+    font-size: 12px;
+   
+}
+.p3 {
+    padding-left: 1px;
+    font-weight: 200;
+    padding-top: 10px;
+    font-size: 14px;
+    
+}
+
+
+.icon {
+    color: white;
+    font-size: 30px;
+    flex: 30%;
+}
+.navItem p {
+    color: white;
+    flex: 50%;
+    align-content: center;
+}
+.logOut {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    right: 25%;
+    font-weight: 500;
+    margin-left: 16%;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.logOut:hover {
+    background-color: red;
+}
+.navLogOut:hover {
+    background-color: rgb(20, 7, 66);
+}
+.content {
+    height: 100vh;
+    background-color: rgb(20, 7, 45);
+}
+.filler {
+    height: 400px;
+    background-color: aqua;
+    width: 100%;
+    position: relative;
+    gap: 50px
 }
