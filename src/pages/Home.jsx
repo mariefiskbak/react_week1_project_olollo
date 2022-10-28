@@ -28,9 +28,10 @@ const Home = () => {
         console.log("changeHandler blev kaldt")
     }
 
-    const filteredBeers = beers.filter((beer) =>
-        beer.name.toLowerCase().includes(searchInput.toLowerCase())
-    )
+    const filteredBeers = beers.filter((beer) => {
+        return beer.type.toLowerCase().includes(searchInput.toLowerCase())
+            && beer.name.toLowerCase().includes(searchInput.toLowerCase())
+    })
 
     return (
         <div>

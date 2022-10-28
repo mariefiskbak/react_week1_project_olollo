@@ -4,7 +4,6 @@ import image1 from '../../images/1.png'
 import image2 from '../../images/2.png'
 import image3 from '../../images/3.png'
 import dk from '../../images/dk.png'
-import BeerItem from './beer.jsx'
   import {Link} from 'react-router-dom'
 
 function Beers({filteredBeers}) {
