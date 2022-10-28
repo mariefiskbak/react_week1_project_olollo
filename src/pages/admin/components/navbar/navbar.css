@@ -1,0 +1,10 @@
+.Page {
+    width: 100vw;
+    height: 100vh;
+
+}
+.Navbar {
+    height: 100%;
+    width: 300px;
+    background-color:green;
+}

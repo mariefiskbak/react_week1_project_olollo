@@ -3,6 +3,7 @@ import { useLocation, Link } from 'react-router-dom'
 import Header from '../../components/header/Header';
 import './beerDetails.css'
 import BeerProfile from '../../components/beerProfile/BeerProfile'
+import BeerComments from '../../components/beerComments/BeerComments';
 
 
 
@@ -50,6 +51,7 @@ const BeerDetails = (props) => {
           </div>
         </div>
         <BeerProfile />
+        <BeerComments />
     </div>
     
   )

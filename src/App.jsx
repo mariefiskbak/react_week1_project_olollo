@@ -1,4 +1,5 @@
 import Home from './pages/Home'
+import Admin from './pages/admin/Admin'
 import BeerDetails from './pages/beerDetails/BeerDetails'
 import {
     BrowserRouter,

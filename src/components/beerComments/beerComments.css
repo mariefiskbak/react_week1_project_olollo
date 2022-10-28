@@ -1,0 +1,27 @@
+.commentField {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+.comment {
+    height: 100px;
+    width: 50%;
+    -webkit-box-shadow: 10px 19px 37px -9px rgba(130,130,130,0.8); 
+    box-shadow: 10px 19px 37px -9px rgba(130,130,130,0.8);
+    background-color: white;
+    border-radius: 20px;
+}
+.commentRating {
+    height: 100%;
+    background-color: black;
+    width: 20%;
+    
+}
+.commentText {
+
+}
