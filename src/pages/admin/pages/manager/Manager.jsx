@@ -1,7 +1,10 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
+import "./manager.css"
 
 const Manager = () => {
+
+  
   return (
     <div className="Page">
     <div className="navbar">

@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from "react";
 import Header from '../components/header/Header'
-import SearchBar from '../components/serachBar/SearchBar';
+import SearchBar from '../components/searchBar/SearchBar';
 import Beers from '../components/beers/Beers.jsx';
 import Footer from '../components/footer/Footer.jsx';
 
