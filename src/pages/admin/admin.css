@@ -5,6 +5,7 @@
     grid-template-columns: 250px auto;
     
 }
+
 .content {
     height: 100%;
     width: auto;
@@ -22,10 +23,15 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+   
 }
 .navItem:hover {
     background-color: gray;
 } 
+#active { 
+    background-color: rgb(49, 12, 183) !important;
+
+}
 .navLogo {
     height: 25%;
     background-color: rgb(20, 7, 66);
@@ -72,6 +78,7 @@
     color: white;
     flex: 50%;
     align-content: center;
+    
 }
 .logOut {
     color: white;
@@ -97,10 +104,6 @@
     height: 100vh;
     background-color: rgb(20, 7, 45);
 }
-.filler {
-    height: 400px;
-    background-color: aqua;
-    width: 100%;
-    position: relative;
-    gap: 50px
-}
+
+
+

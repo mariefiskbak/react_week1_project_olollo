@@ -49,16 +49,20 @@
     display: flex;
     gap: 50px;
     position: relative;
-    top: 25%
+    top: 20%
 }
 .menu .buttons button {
-    height: 50px;
-    width: 100px;
-    background: linear-gradient(109.6deg, rgb(80, 35, 217) 11.2%, rgb(217, 35, 189) 91.1%);
+    height: 60px;
+    width: 150px;
+    background: black;
     border-radius: 20px;
     color: white;
     font-weight: 600px;
     font-size: 15px;
-
-
+    border: none;
+    cursor: pointer;
+}
+.menu .buttons button:hover {
+   
+    background: linear-gradient(109.6deg, rgb(80, 35, 217) 11.2%, rgb(217, 35, 189) 91.1%);
 }
