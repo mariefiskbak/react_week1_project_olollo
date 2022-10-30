@@ -17,8 +17,9 @@ function App() {
 
     return (
         <BrowserRouter>
-            <ScrollToTop/>
+        <ScrollToTop/>
             <Routes>
+                
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/beer/:id" element={<BeerDetails/>}></Route>
                 <Route path="/admin" element={<Dashboard/>}></Route>
